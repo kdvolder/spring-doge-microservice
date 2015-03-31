@@ -91,9 +91,10 @@ function reset(){
 ### and selectively uncomment them if the script in total encounters
 ### IO errors and such.
 
+export JAVA_HOME=/home/kdvolder/Applications/jdk1.8.0_31
 mvn -DskipTests=true clean install
 
-login
+#login
 reset
 deploy_config
 deploy_eureka
